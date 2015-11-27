@@ -63,6 +63,10 @@ h4{
   background: #d9d9d9;
   border-bottom: white;
 }
+
+#navbarCollapse{
+  padding-right: 0;
+}
 /* content */
 
 .section h4:first-child, .sect-gray h4:first-child {
@@ -130,6 +134,7 @@ h4{
     padding: 10px 15px;
     color: black;
     margin-right: 30px;
+    width: 28%;
 }
 .list-agenda li>p{
   display: inline-block;
@@ -144,7 +149,7 @@ h4{
   font-size: 14px;
   color: black;
 }
-
+.sect-more li{ display: block;}
 .sect-more a{
   color: gray;
   text-decoration: underline;
@@ -181,15 +186,3 @@ h4{
   color: black;
   font-weight: bold;
 }
-/*
-.col-2-4{
-  width: 20%;
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.row:last-child{
-  margin: 10px 0;
-*/
