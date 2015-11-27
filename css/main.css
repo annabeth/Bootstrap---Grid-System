@@ -67,6 +67,16 @@ h4{
 #navbarCollapse{
   padding-right: 0;
 }
+.nav{ width: 100%;}
+@media(max-width:950px) {
+  .nav li:nth-child(-n+3){ width: 13%;}
+  .nav li:nth-child(n+4){ width: 20%;}
+  .nav li>a{
+    padding: 10px 3px;
+    font-size: 12px;
+  }
+}
+
 /* content */
 
 .section h4:first-child, .sect-gray h4:first-child {
